@@ -1,12 +1,7 @@
 // Author:     Rahib R Laghari
-// Course:     CS1336.010
-// Date:       11/2/2020
-// Assignment: Homework #8 Exercise #1
-// Compiler:   Xcode
 
 // Description:
 // This program will print out as many prime numbers as the user input specifies, starting from 2
-// The user can, at maximum, only print out the first 100 prime numbers, and at minimum only the first prime number
 
 #include <cmath>
 #include <iostream>
@@ -15,16 +10,7 @@
 #include <string>
 
 using namespace std;
-/* pseudocode for an isprime function:
- if num == 2
- - return true (it will help stop the outlier, and 2 will be the first printed prime
- else
- for not prime number (tested with remainder function: %)
- return false and make sure to increment number
- else
- return true
- if any of values above give zero, it's not a prime number
- */
+
 // isPrime checks to see if input number is a prime number
 bool isPrime(int num){
    if (num == 2){
